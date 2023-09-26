@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    background-image: url(img\immagini\logo.svg);
+}
+
+
+.uno,.tre{
+    min-width: 75px;
+    
+}
+.primo_container{
+    display: flex;
+    justify-content: center;
+}
+.uno{
+    text-align: left;
+}
+.tre{
+    text-align: right;
+    background-color: purple;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 50px;
+}
+.due{
+    min-width: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+div > h3{
+    margin:10px;
+}
+
+.secondo_container{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.rosa{
+    height: 300px;
+    width: 60%;
+    margin: 20px 0;
+    background-color: fuchsia;
+ 
+}
+
+.terzo_container, .quarto_container,.quinto_container,.sesto_container,.settimo_container,.ottavo_container{
+    display: flex;
+    justify-content: center
+}
+
+.blue_{
+    height: 300px;
+    width: 60%;
+    margin: 20px 0;
+    background-color: blue;
+}
+.rosa_{
+    height: 300px;
+    width: 30%;
+    margin: 20px 0;
+    background-color: pink;
+    border: 2px dashed black;
+}
+.quarto_container, .sesto_container{
+    background-color: grey;
+}
+.settimo_container, .ottavo_container{
+    background-color: black;
+}
+
+.green{
+    height: 600px;
+    width: 60%;
+    margin: 20px 0;
+    background-color: green;
+ 
+}
+.rosa_due{
+    height: 600px;
+    width: 20%;
+    margin: 20px 0;
+    background-color: pink
+}
+
+.verdino{
+    height: 600px;
+    width: 10%;
+    margin: 20px 0;
+    background-color: lightgreen;
+}
+
+
+.blue_ottavo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 60%;
+    margin: 20px 0;
+    background-color: lightblue;
+}
+
+.colore{
+
+    background-color: pink;
+    padding: 10px;
+}
+
+
+
+
