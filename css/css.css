@@ -4,101 +4,151 @@ body{
 
 
 nav{
+    min-height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 20px;
-    background-image: url(img\immagini\logo.svg);
+    background-image: url("../img/immagini/jumbo.png");
+    background-size: 100% auto
 }
 
 
 .uno,.tre{
-    min-width: 75px;
-    
+    min-width: 50px;
 }
+
+
 .primo_container{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .uno{
     text-align: left;
 }
-.tre{
-    text-align: right;
-    background-color: purple;
-    padding: 0px;
-    margin: 0px;
-    border-radius: 50px;
-}
+
 .due{
     min-width: 900px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items:center;
+    color: white;
 }
-
-div > h3{
-    margin:10px;
+.tre{
+    text-align: right;
+    background-color: white;
+    padding: 0 10px;
+    margin: 0px;
+    border-radius: 50px;
+}
+.primo_bottone,.primo_bottone2>img{
+    height: 20px;
+    padding-right: 5px;
+    color: white;
+}
+.primo_bottone{
+    padding:  15px 25px;
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+}
+.primo_bottone2{
+    padding:  15px 25px;
+    display: flex;
+    background-color: lightblue;
+    border-radius: 25px;
+}
+.secondo_bottone{
+    padding:  15px 25px;
+    color: white;
+   background-color: black;
+   border-radius: 25px;
+}
+.due_bottoni{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 500px;
 }
 
 .secondo_container{
-    background-color: blue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.rosa>h1{
+    padding-top: 30px;
+    font-size: 50px;
+    color: white;
+}
+.secondo_container>h2{
+    padding: 0 500px;
+    color: white;
+}
+
+.terzo_container, .quarto_container,.quinto_container,.sesto_container{
     display: flex;
     justify-content: center;
+    justify-content: space-around ;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
-.rosa{
-    height: 300px;
-    width: 60%;
-    margin: 20px 0;
-    background-color: fuchsia;
- 
-}
-
-.terzo_container, .quarto_container,.quinto_container,.sesto_container,.settimo_container,.ottavo_container{
+.settimo_container,.ottavo_container{
     display: flex;
-    justify-content: center
+    justify-content: center;
+    align-content: space-around;
+    background-color: darkgrey;
+}
+.rosa_due,.verdino{
+    display: flex;
+    flex-direction: column;
+}
+
+.dritto{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 20px;
+    
+}
+.dritto>h2{
+    margin: 0px;
+    margin-left: 10px;
 }
 
 .blue_{
-    height: 300px;
+    align-self: center;
     width: 60%;
     margin: 20px 0;
-    background-color: blue;
-}
-.rosa_{
-    height: 300px;
-    width: 30%;
-    margin: 20px 0;
-    background-color: pink;
-    border: 2px dashed black;
-}
-.quarto_container, .sesto_container{
-    background-color: grey;
-}
-.settimo_container, .ottavo_container{
-    background-color: black;
+    align-self: center;
 }
 
-.green{
-    height: 600px;
-    width: 60%;
-    margin: 20px 0;
-    background-color: green;
- 
-}
-.rosa_due{
-    height: 600px;
-    width: 20%;
-    margin: 20px 0;
-    background-color: pink
+
+ .sesto_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.verdino{
-    height: 600px;
-    width: 10%;
-    margin: 20px 0;
-    background-color: lightgreen;
+
+.verdino>h1{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
+
+.verdino>h2{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
 
 
 .blue_ottavo{
@@ -116,6 +166,7 @@ div > h3{
     background-color: pink;
     padding: 10px;
 }
+
 
 
 
